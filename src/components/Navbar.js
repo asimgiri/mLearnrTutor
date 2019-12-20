@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 export default function Navbar() {
     const [toggleNav, setToggleNav] = useState(false);
@@ -12,18 +13,18 @@ export default function Navbar() {
             <section className="nav">
                 <div className="container">
                     <div>
-                        <a href=""><h1 className="logo">mLearnr <span>Tutor</span></h1></a>
+                        <NavLink exact to="/"><h1 className="logo">mLearnr <span>Tutor</span></h1></NavLink>
                     </div>
                     <div>
                         <ul>
                             <li>
-                                <a href="">Home</a>
+                                <NavLink exact to="/" activeClassName="active">Home</NavLink>
                             </li>
                             <li>
-                                <a href="">Join Us</a>
+                                <NavLink exact to="joinus" activeClassName="active">Join Us</NavLink>
                             </li>
                             <li>
-                                <a href="">Classes</a>
+                                <NavLink exact to="classes" activeClassName="active">Classes</NavLink>
                             </li>
                         </ul>
                     </div>
