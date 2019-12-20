@@ -265,7 +265,7 @@
      color: #16466A !important;
  }
 
- .slick-prev:before, .slick-next:before{
+ .slick-prev:before, .slick-next:before {
      font-size: 30px !important;
  }
 
@@ -305,3 +305,28 @@
  }
 
  /* ------------------------------- FOOTER --------------------------------------------- */
+
+ .mobile_nav {
+     background: rgba(0,255,255,.2);
+     display: none;
+ }
+
+ .mobile_nav ul li {
+     padding: 10px 30px;
+ }
+
+ .right{
+     float: right;
+ }
+
+ .close{
+     position: absolute;
+     right: 5%;
+     top: 2%;
+     z-index: 9;
+ }
+
+ .close i{
+     padding: 10px;
+     display: none;
+ }

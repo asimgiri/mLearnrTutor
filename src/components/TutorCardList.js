@@ -12,7 +12,7 @@ export default function TutorCardList() {
         infinite: true,
         speed: 500,
         slidesToShow: 2,
-        slidesToScroll: 1,  
+        slidesToScroll: 1,
         arrow: true,
         centerMode: true,
         responsive: [

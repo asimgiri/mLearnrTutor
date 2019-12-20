@@ -36,4 +36,13 @@
     .footer .container div:nth-child(2) li {
         padding: 3px 0;
     }
+    .mobile_nav {
+        display: block;
+    }
+    .hero_title {
+        padding-top: 2rem !important;
+    }
+    .close i{
+        display: block;
+    }
 }
