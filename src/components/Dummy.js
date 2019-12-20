@@ -43,4 +43,18 @@ let tutDetails = [
     },
 ]
 
+let setup = [
+    {
+        title: "I provide a",
+        hero: "Service",
+        subtitle: "I want to offer my services"
+    },
+    {
+        title: "I want to",
+        hero: "Hire",
+        subtitle: "I want to hire for my services"
+    },
+]
+
 export { tutDetails }
+export { setup }
