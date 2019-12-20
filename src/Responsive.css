@@ -40,9 +40,27 @@
         display: block;
     }
     .hero_title {
-        padding-top: 2rem !important;
+        padding-top: 3rem !important;
     }
-    .close i{
+    .close i {
         display: block;
+    }
+    .footer .container {
+        display: inline;
+    }
+    .footer .container div {
+        text-align: center;
+        padding: 10px 0;
+    }
+    .footer .container div li {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    .footer .container div:nth-child(2) li {
+        display: inline;
+        padding: 20px;
+    }
+    .tutor_card{
+        width: 200px;
     }
 }

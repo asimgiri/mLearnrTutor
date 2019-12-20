@@ -19,17 +19,9 @@ export default function TutorCardList() {
             {
                 breakpoint: 600,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                     slidesToScroll: 1,
                     centerMode: false,
-                }
-            },
-            {
-                breakpoint: 1800,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    centerMode: true,
                 }
             },
         ]
