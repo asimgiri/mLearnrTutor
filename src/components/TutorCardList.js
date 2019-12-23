@@ -50,10 +50,10 @@ export default function TutorCardList() {
         <div className="tutor_list">
             <h1 className="hero_title">Hire the right <span className="text_primary">tutor</span> today</h1>
             <Slider {...settings}>
-                {tutDetails.map((value, index) => {
+                {tutDetails.map((value) => {
                     return (
                         <TutorCard
-                            key={index}
+                            key={value.toString()}
                             imgSrc={value.imgSrc}
                             name={value.name}
                             designation={value.designation}

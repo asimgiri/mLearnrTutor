@@ -8,7 +8,6 @@
  html, body, #root {
      height: 100% !important;
      font-family: 'Source Sans Pro', sans-serif;
-     overflow: hidden;
  }
 
  .App {
@@ -68,11 +67,16 @@
 
  .logo {
      font-size: 28px;
-     color: #333 !important;
+     color: #444 !important;
  }
 
  .logo span {
      color: #16466A;
+ }
+
+ .m {
+     font-size: 36px;
+     color: rgb(0, 209, 178) !important;
  }
 
  .nav {
@@ -223,7 +227,7 @@
 
  .slick-slider {
      height: 360px;
-     width: 64%;
+     width: 63%;
      margin-left: -40px;
      margin-bottom: 2rem !important;
  }

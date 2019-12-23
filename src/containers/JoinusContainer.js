@@ -11,9 +11,10 @@ export default function JoinusContainer() {
                 <div className="container">
                     <h2 className="text_center spacing_md text_gray">Help us setup your account</h2>
                     <div className="row">
-                        {setup.map((value, index) => {
+                        {setup.map((value) => {
                             return (
                                 <Setup
+                                    key={value.toString()}
                                     title={value.title}
                                     hero={value.hero}
                                     subtitle={value.subtitle}

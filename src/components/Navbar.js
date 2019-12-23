@@ -13,7 +13,9 @@ export default function Navbar() {
             <section className="nav">
                 <div className="container">
                     <div>
-                        <NavLink exact to="/"><h1 className="logo">mLearnr <span>Tutor</span></h1></NavLink>
+                        <NavLink exact to="/">
+                            <h1 className="logo"><span className="m">m</span>Learnr<span>Tutor</span></h1>
+                        </NavLink>
                     </div>
                     <div>
                         <ul>
@@ -29,9 +31,9 @@ export default function Navbar() {
                         </ul>
                     </div>
                     <div>
-                        <a href="">
+                        <NavLink to="">
                             <button className="primary_btn">Get Started</button>
-                        </a>
+                        </NavLink>
                     </div>
                 </div>
             </section>
@@ -44,7 +46,9 @@ export default function Navbar() {
                     <section className="mobile_nav">
                         <ul>
                             <li>
-                                <NavLink exact to="/"><h1 className="logo">mLearnr <span>Tutor</span></h1></NavLink>
+                                <NavLink exact to="/">
+                                    <h1 className="logo">mLearnr <span>Tutor</span></h1>
+                                </NavLink>
                             </li>
                             <li>
                                 <NavLink exact to="/">Home</NavLink>
