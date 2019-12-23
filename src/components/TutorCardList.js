@@ -15,7 +15,7 @@ export default function TutorCardList() {
         slidesToScroll: 1,
         arrow: true,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 3000,
         centerMode: true,
         centerPadding: '40px',
         responsive: [
@@ -26,7 +26,7 @@ export default function TutorCardList() {
                     slidesToScroll: 1,
                     centerMode: false,
                     autoplay: true,
-                    autoplaySpeed: 2000,
+                    autoplaySpeed: 3000,
                     variableWidth: true,
                 }
             },

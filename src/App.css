@@ -248,7 +248,8 @@
  }
 
  .slick-current .tutor_card {
-     background: rgb(0, 209, 178);
+     background: rgba(0, 209, 178, .1);
+     border: 1px solid rgb(0, 209, 178);
  }
 
  .slick-current .text_gray {
