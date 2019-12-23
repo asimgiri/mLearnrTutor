@@ -57,9 +57,6 @@
         display: inline;
         padding: 20px;
     }
-    /* .tutor_card {
-        width: 100%;
-    } */
     .step {
         display: none;
     }
@@ -67,10 +64,32 @@
         flex-direction: column;
     }
     .joinus .spacing_md {
-        margin-top: 3rem;
+        margin-top: 4rem;
+        margin-bottom: 1rem !important;
     }
     .setup {
-        width: 100%;
+        width: u 100%;
         margin: 1rem 0;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .setup {
+        width: auto !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .hero_img {
+        top: 32%;
+        right: -17%;
+        display: none;
+    }
+    .slick-slider {
+        width: 100%;
+        margin: auto;
+    }
+    .slick-slide {
+        margin: 0 5px;
     }
 }

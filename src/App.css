@@ -8,6 +8,7 @@
  html, body, #root {
      height: 100% !important;
      font-family: 'Source Sans Pro', sans-serif;
+     overflow: hidden;
  }
 
  .App {
@@ -265,7 +266,7 @@
  }
 
  .active {
-     color: #16466A !important;
+     color: rgb(0, 209, 178) !important;
  }
 
  .slick-prev:before, .slick-next:before {

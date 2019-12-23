@@ -8,7 +8,7 @@ export default function HomeContainer(props) {
                 <TutorCardList />
             </div>
             <div className="hero_img">
-                <img src="/assets/hero.png" alt="" width="100%" height="100%" />
+                <img src="/assets/hero2.png" alt="" width="100%" height="100%" />
             </div>
         </section>
     )
