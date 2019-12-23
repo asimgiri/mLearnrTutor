@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import Main from './components/Main';
 import Footer from './components/Footer';
 
 import HomeContainer from './containers/HomeContainer';
@@ -15,8 +14,6 @@ import '@fortawesome/fontawesome-free/css/all.css';
 import { Switch, Route } from 'react-router-dom';
 import JoinusContainer from './containers/JoinusContainer';
 import ClassesContainer from './containers/ClassesContainer';
-
-
 
 function App() {
   return (

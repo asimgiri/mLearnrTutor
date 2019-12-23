@@ -78,6 +78,10 @@
      color: #16466A;
  }
 
+ .nav {
+     box-shadow: 0 2px 3px rgba(0, 0, 0, .03), 0 0 3px rgba(0, 0, 0, .06);
+ }
+
  .nav .container {
      display: flex;
      flex-direction: row;
@@ -337,7 +341,7 @@
 
  /* ------------------------------- JOINUS --------------------------------------------- */
 
- .joinus .container .row{
+ .joinus .container .row {
      display: flex;
      justify-content: space-evenly;
  }
@@ -373,6 +377,7 @@
      height: 1px;
      background: #dfdfdf;
      position: relative;
+     margin-top: 2rem;
      margin-bottom: 4rem;
  }
 
@@ -405,19 +410,19 @@
  }
 
  .three {
-     right: -4%;
+     right: -40px;
  }
 
  .three .bubble {
-    background: #dfdfdf;
-}
+     background: #dfdfdf;
+ }
 
-.text_center{
-    text-align: center !important;
-}
+ .text_center {
+     text-align: center !important;
+ }
 
-.spacing_md{
-    margin-bottom: 2rem;
-}
+ .spacing_md {
+     margin-bottom: 3rem;
+ }
 
  /* ------------------------------- JOINUS --------------------------------------------- */

@@ -60,7 +60,20 @@
         display: inline;
         padding: 20px;
     }
-    .tutor_card{
+    .tutor_card {
         width: 200px;
+    }
+    .step {
+        display: none;
+    }
+    .joinus .container .row {
+        flex-direction: column;
+    }
+    .joinus .spacing_md {
+        margin-top: 3rem;
+    }
+    .setup {
+        width: 100%;
+        margin: 1rem 0;
     }
 }

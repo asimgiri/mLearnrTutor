@@ -44,21 +44,21 @@ export default function Navbar() {
                     <section className="mobile_nav">
                         <ul>
                             <li>
-                                <a href=""><h1 className="logo">mLearnr <span>Tutor</span></h1></a>
+                                <NavLink exact to="/"><h1 className="logo">mLearnr <span>Tutor</span></h1></NavLink>
                             </li>
                             <li>
-                                <a href="">Home</a>
+                                <NavLink exact to="/">Home</NavLink>
                             </li>
                             <li>
-                                <a href="">Join Us</a>
+                                <NavLink exact to="/joinus">Join Us</NavLink>
                             </li>
                             <li>
-                                <a href="">Classes</a>
+                                <NavLink exact to="/classes">Classes</NavLink>
                             </li>
                             <li>
-                                <a href="">
+                                <NavLink exact to="/">
                                     <button className="primary_btn">Get Started</button>
-                                </a>
+                                </NavLink>
                             </li>
                         </ul>
                     </section>
