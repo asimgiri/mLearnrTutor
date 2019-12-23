@@ -14,13 +14,20 @@ export default function TutorCardList() {
         slidesToShow: 2,
         slidesToScroll: 1,
         arrow: true,
-        centerMode: false,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        centerMode: true,
+        centerPadding: '40px',
         responsive: [
             {
                 breakpoint: 600,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
+                    centerMode: false,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                    variableWidth: true,
                 }
             },
         ]
